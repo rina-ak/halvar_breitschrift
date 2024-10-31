@@ -176,3 +176,23 @@ body {
 margin-top: 60px;
 margin-bottom: 20px;
 }
+
+footer{
+    width: 1440px; 
+    height: 420px; 
+    background: #020202;
+}
+
+.huge{
+    color: white; 
+    font-size: 128px;
+    font-weight: 700;
+}
+
+.med{
+    margin-top: 60px;
+    color: white; 
+    font-size: 64px;
+    font-weight: 400;
+}
+
