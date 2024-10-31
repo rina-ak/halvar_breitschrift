@@ -24,6 +24,26 @@
 
 .bs{
     font-family: 'Halvar Breitschrift';
-	font-weight: bold;
-    font-style: italic;
+    font-style: bold slanted;
+}
+
+.hl{
+    font-family: 'Halvar Breitschrift';
+	font-weight: lighter;
+}
+
+.black{
+    font-family: 'Halvar Breitschrift';
+    font-weight: 900;
+}
+
+.ss{
+    font-family: 'Halvar Breitschrift';
+    font-weight: 400;
+    font-style: oblique;
+}
+
+.lg{
+    font-family: 'Halvar Breitschrift';
+    font-weight: 100;
 }

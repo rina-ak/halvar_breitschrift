@@ -1,3 +1,13 @@
+body {
+    font-family: "Halvar Breitschrift";
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -6,5 +16,66 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.text48 {
+    text-align: center;
+    color: #020202;
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.title{
+    color: #020202;
+    font-size: 64px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.line{
+    width: 1376px;
+    height: 0;
+    border-top: 4px solid #020202;
+    margin:auto;
+    margin-bottom: 100px;
+}
+
+.complex-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic.left {
+    margin-left: 60px;
+}
+
+.pic.right {
+    margin-right: 60px;
+}
+
+.center-text {
+    font-size: 48px;
+    color: #020202;
+    margin-top: 40px;
+}
+
+.text36{
+    width: 647px;
+    font-size: 36px;
+    color: #020202;
+    text-align: left;
+}
+
+.spaced_text{
+    letter-spacing: 12.24px;
 }
