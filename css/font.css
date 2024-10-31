@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Halvar Breitschrift;
+    font-style: normal;
+    font-weight: normal;
+    src: url(/font/HalvarBreit-Rg.woff2) format("woff2"),
+    url(/font/HalvarBreit-Bd.woff2) format("woff2"),
+    url(/font/HalvarBreit-Lt.woff2) format("woff2"),
+    url(/font/HalvarBreit-BdSlanted.woff2) format("woff2");
+}
+
+.rg{
+    font-family: Halvar Breitschrift;
+}
+
+.it{
+    font-family: 'Halvar Breitschrift';
+    font-style: italic;
+}
+
+.bl{
+    font-family: 'Halvar Breitschrift';
+	font-weight: bold;
+}
+
+.bs{
+    font-family: 'Halvar Breitschrift';
+	font-weight: bold;
+    font-style: italic;
+}
