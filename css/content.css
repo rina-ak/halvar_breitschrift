@@ -88,19 +88,12 @@ body {
 }
 
 .table_lang{
-    display: grid;
-    grid-template-columns: repeat(4, 265px);
-    grid-template-rows: repeat(3, 91px);
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     margin-bottom: 100px;
 }
 
-.cell{
-    width: 265px;
-    height: 91px;
-    box-sizing: border-box;
-    border: 2px solid black;
-}
 
 .text48b {
     text-align: center;

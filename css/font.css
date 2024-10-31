@@ -27,6 +27,10 @@
     format("truetype");
 }
 
+body{
+    font-family: "Halvar Breitschrift", sans-serif;
+}
+
 .rg{
     font-family: 'Halvar Breitschrift';
 }
@@ -68,6 +72,3 @@
     font-weight: 100;
 }
 
-body{
-    font-family: "Halvar Breitschrift", sans-serif;
-}
