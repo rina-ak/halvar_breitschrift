@@ -1,74 +1,66 @@
 @font-face {
-    font-family: Halvar Breitschrift Regular;
+    font-family: "Halvar Breitschrift";
     font-style: normal;
-    font-weight: normal;
-    src: url(../font/HalvarBreit-Rg.ttf)
-    format("truetype");
-}
-@font-face {
-    font-family: Halvar Breitschrift Bold;
-    font-style: normal;
-    font-weight: normal;
-    src: url(../font/HalvarBreit-Bd.ttf)
-    format("truetype");
-}
-@font-face {
-    font-family: Halvar Breitschrift Light;
-    font-style: normal;
-    font-weight: normal;
-    src: url(../font/HalvarBreit-Lt.ttf)
-    format("truetype");
-}
-@font-face {
-    font-family: Halvar Breitschrift Bold Slanted;
-    font-style: normal;
-    font-weight: normal;
-    src: url(../font/HalvarBreit-BdSlanted.ttf)
-    format("truetype");
+    font-weight: 400;
+    src: url("../font/HalvarBreit-Rg.ttf") format("truetype");
 }
 
-body{
+@font-face {
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../font/HalvarBreit-Bd.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Halvar Breitschrift";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../font/HalvarBreit-Lt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Halvar Breitschrift";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../font/HalvarBreit-BdSlanted.ttf") format("truetype");
+}
+
+
+body {
     font-family: "Halvar Breitschrift", sans-serif;
 }
 
-.rg{
-    font-family: 'Halvar Breitschrift';
+
+.rg {
+    font-weight: 400;
 }
 
-.it{
-    font-family: 'Halvar Breitschrift';
+.it {
     font-style: italic;
 }
 
-.bl{
-    font-family: 'Halvar Breitschrift';
-	font-weight: bold;
+.bl {
+    font-weight: 700;
 }
 
-.bs{
-    font-family: 'Halvar Breitschrift';
+.bs {
+    font-weight: 700;
     font-style: italic;
-    font-weight: bold;
 }
 
-.hl{
-    font-family: 'Halvar Breitschrift';
-	font-weight: lighter;
+.hl {
+    font-weight: 300;
 }
 
-.black{
-    font-family: 'Halvar Breitschrift';
+.black {
     font-weight: 900;
 }
 
-.ss{
-    font-family: 'Halvar Breitschrift';
-    font-weight: 400;
+.ss {
     font-style: oblique;
 }
 
-.lg{
-    font-family: 'Halvar Breitschrift';
+.lg {
     font-weight: 100;
 }
-
