@@ -24,7 +24,8 @@
 
 .bs{
     font-family: 'Halvar Breitschrift';
-    font-style: bold slanted;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .hl{
