@@ -2,25 +2,29 @@
     font-family: Halvar Breitschrift Regular;
     font-style: normal;
     font-weight: normal;
-    src: url(/font/HalvarBreit-Rg.ttf) format("woff2");
+    src: url(../font/HalvarBreit-Rg.ttf)
+    format("truetype");
 }
 @font-face {
     font-family: Halvar Breitschrift Bold;
     font-style: normal;
     font-weight: normal;
-    src: url(/font/HalvarBreit-Bd.ttf) format("woff2");
+    src: url(../font/HalvarBreit-Bd.ttf)
+    format("truetype");
 }
 @font-face {
     font-family: Halvar Breitschrift Light;
     font-style: normal;
     font-weight: normal;
-    src: url(/font/HalvarBreit-Lt.ttf) format("woff2");
+    src: url(../font/HalvarBreit-Lt.ttf)
+    format("truetype");
 }
 @font-face {
     font-family: Halvar Breitschrift Bold Slanted;
     font-style: normal;
     font-weight: normal;
-    src: url(/font/HalvarBreit-BdSlanted.ttf) format("woff2");
+    src: url(../font/HalvarBreit-BdSlanted.ttf)
+    format("truetype");
 }
 
 .rg{
